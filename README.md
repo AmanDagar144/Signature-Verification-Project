@@ -30,3 +30,15 @@ This project is a **Signature Verification System** that uses **Computer Vision*
 
 ---
 
+## 🗂️ Project Structure
+
+signature-verification/
+│
+├── dataset                             # Folder containing all signature images
+│   link to download dataset:             https://www.kaggle.com/datasets/divyanshrai/handwritten-signatures/data
+│
+├── signature_verification.ipynb        # Jupyter notebook for model building, training, and testing
+│
+├── app.py                              # Streamlit app for uploading and verifying signatures
+│
+└── signature_verification.pkl          # Trained SVM model saved using pickle or joblib
